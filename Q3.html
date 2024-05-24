@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Q3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .box {
+            width: 80%;
+            margin: auto;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>FAQ <span><i class="ri-arrow-down-s-line"></i></span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ab minus saepe facilis eius magni rem
+            consequuntur incidunt explicabo. Iusto itaque excepturi fugiat optio labore, officiis debitis velit.
+            Eveniet, quis.
+            Distinctio quo itaque accusamus reiciendis veniam reprehenderit, minima ducimus aut cum, velit non quos
+            maxime dolores ipsum, voluptate quae. Quia enim, explicabo vitae corporis commodi error tenetur minima
+            nesciunt rerum.
+            Magni ipsam, repellat voluptatibus quaerat iste eligendi animi ratione sit accusamus. Nisi provident sint
+            quisquam ipsum consequuntur, hic cumque repellendus exercitationem dignissimos, quaerat saepe ea est iste
+            quas natus corporis.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("span").click(function () {
+                $("p").slideToggle(500);
+            })
+        })
+    </script>
+</body>
+
+</html>
